@@ -1,0 +1,17 @@
+RunStarted at :2020-04-01 12:36:18.961423
+Environment Created
+**********************
+myurl  None
+This is Title name : Rapt.AI
+This is Title name : Rapt.AI
+Login successful
+************ Mnist Auto *****************
+Selected Tensorflow
+Selected Inception
+Your selected Auto
+*******************
+Environment-1 Destroyed
+Run Completed at :2020-04-01 12:39:19.846771
+*******************
+Environment-2 Destroyed
+Run Completed at :2020-04-01 12:39:22.009575

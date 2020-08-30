@@ -1,0 +1,51 @@
+Console Logs :
+<html><head>
+    <title>tail -f /home/ubuntu/retrain.log</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/styles/default.css">
+    <link rel="icon" href="/favicon.ico">
+</head>
+
+<body>
+    <nav class="topbar navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-10">
+                    <span class="navbar-brand" title="/home/ubuntu/retrain.log">Console messages</span>
+                </div>
+                <div class="col-sm-2">
+                    <form class="navbar-form-custom" role="search" onkeypress="return event.keyCode != 13;">
+                        <input type="text" class="form-control query" placeholder="Filter" tabindex="1">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid no-horiz-padding">
+        <pre class="log"><div class="line"><p class="inner-line">WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.</p></div><div class="line"><p class="inner-line">Instructions for updating:</p></div><div class="line"><p class="inner-line">Please use tf.data to implement this functionality.</p></div><div class="line"><p class="inner-line">Extracting /tmp/tensorflow/mnist/input_data/train-labels-idx1-ubyte.gz</p></div><div class="line"><p class="inner-line">WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.</p></div><div class="line"><p class="inner-line">Instructions for updating:</p></div><div class="line"><p class="inner-line">Please use tf.one_hot on tensors.</p></div><div class="line"><p class="inner-line">Extracting /tmp/tensorflow/mnist/input_data/t10k-images-idx3-ubyte.gz</p></div><div class="line"><p class="inner-line">Extracting /tmp/tensorflow/mnist/input_data/t10k-labels-idx1-ubyte.gz</p></div><div class="line"><p class="inner-line">WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: DataSet.__init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.</p></div><div class="line"><p class="inner-line">Instructions for updating:</p></div><div class="line"><p class="inner-line">Please use alternatives such as official/mnist/dataset.py from tensorflow/models.</p></div><div class="line"><p class="inner-line">WARNING:tensorflow:From /tensorflow/training/Mnist_classification/mnist_gpu.py:149: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.</p></div><div class="line"><p class="inner-line">Instructions for updating:</p></div><div class="line"><p class="inner-line">Future major versions of TensorFlow will allow gradients to flow</p></div><div class="line"><p class="inner-line">into the labels input on backprop by default.</p></div><div class="line"><p class="inner-line">See `tf.nn.softmax_cross_entropy_with_logits_v2`.</p></div><div class="line"><p class="inner-line">2020-02-28 14:03:48.111431: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA</p></div><div class="line"><p class="inner-line">2020-02-28 14:03:48.187423: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:966] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero</p></div><div class="line"><p class="inner-line">2020-02-28 14:03:48.225961: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1415] Found device 0 with properties: </p></div><div class="line"><p class="inner-line">name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235</p></div><div class="line"><p class="inner-line">pciBusID: 0000:00:1e.0</p></div><div class="line"><p class="inner-line">totalMemory: 11.17GiB freeMemory: 11.11GiB</p></div><div class="line"><p class="inner-line">2020-02-28 14:03:48.226020: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1494] Adding visible gpu devices: 0</p></div><div class="line"><p class="inner-line">2020-02-28 14:03:48.538167: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] Device interconnect StreamExecutor with strength 1 edge matrix:</p></div><div class="line"><p class="inner-line">2020-02-28 14:03:48.538216: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977]      0 </p></div><div class="line"><p class="inner-line">2020-02-28 14:03:48.538225: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990] 0:   N </p></div><div class="line"><p class="inner-line">2020-02-28 14:03:48.538350: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1107] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10761 MB memory) -&gt; physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)</p></div><div class="line"><p class="inner-line">Step 1: Minibatch Loss= 2.5114, Training Accuracy= 0.219, 30 Examples/sec</p></div><div class="line"><p class="inner-line">Step 10: Minibatch Loss= 2.1914, Training Accuracy= 0.344, 534 Examples/sec</p></div><div class="line"><p class="inner-line">Step 20: Minibatch Loss= 1.4488, Training Accuracy= 0.625, 543 Examples/sec</p></div><div class="line"><p class="inner-line">Step 30: Minibatch Loss= 0.7544, Training Accuracy= 0.875, 515 Examples/sec</p></div><div class="line"><p class="inner-line">Step 40: Minibatch Loss= 0.2997, Training Accuracy= 0.906, 571 Examples/sec</p></div><div class="line"><p class="inner-line">Step 50: Minibatch Loss= 0.3244, Training Accuracy= 0.906, 565 Examples/sec</p></div><div class="line"><p class="inner-line">Step 60: Minibatch Loss= 0.4558, Training Accuracy= 0.938, 537 Examples/sec</p></div><div class="line"><p class="inner-line">Step 70: Minibatch Loss= 0.2110, Training Accuracy= 1.000, 563 Examples/sec</p></div><div class="line"><p class="inner-line">Step 80: Minibatch Loss= 0.3544, Training Accuracy= 0.906, 542 Examples/sec</p></div><div class="line"><p class="inner-line">Step 90: Minibatch Loss= 0.1753, Training Accuracy= 0.969, 569 Examples/sec</p></div><div class="line"><p class="inner-line">Step 100: Minibatch Loss= 0.0976, Training Accuracy= 0.969, 516 Examples/sec</p></div><div class="line"><p class="inner-line">Step 110: Minibatch Loss= 0.2450, Training Accuracy= 0.969, 468 Examples/sec</p></div><div class="line"><p class="inner-line">Step 120: Minibatch Loss= 0.1032, Training Accuracy= 1.000, 549 Examples/sec</p></div><div class="line"><p class="inner-line">Step 130: Minibatch Loss= 0.1347, Training Accuracy= 0.938, 559 Examples/sec</p></div><div class="line"><p class="inner-line">Step 140: Minibatch Loss= 0.2495, Training Accuracy= 0.969, 555 Examples/sec</p></div><div class="line"><p class="inner-line">Step 150: Minibatch Loss= 0.1602, Training Accuracy= 0.969, 552 Examples/sec</p></div><div class="line"><p class="inner-line">Step 160: Minibatch Loss= 0.1153, Training Accuracy= 1.000, 560 Examples/sec</p></div><div class="line"><p class="inner-line">Step 170: Minibatch Loss= 0.0989, Training Accuracy= 0.969, 501 Examples/sec</p></div><div class="line"><p class="inner-line">Step 180: Minibatch Loss= 0.0782, Training Accuracy= 0.969, 538 Examples/sec</p></div><div class="line"><p class="inner-line">Step 190: Minibatch Loss= 0.0619, Training Accuracy= 1.000, 484 Examples/sec</p></div><div class="line"><p class="inner-line">Step 200: Minibatch Loss= 0.3368, Training Accuracy= 0.938, 551 Examples/sec</p></div><div class="line"><p class="inner-line">Optimization Finished!</p></div><div class="line"><p class="inner-line">Testing Accuracy: 0.9677516</p></div><div class="line"><p class="inner-line">38.37user 4.04system 0:26.23elapsed 161%CPU (0avgtext+0avgdata 1920904maxresident)k</p></div><div class="line"><p class="inner-line">0inputs+22672outputs (0major+1023705minor)pagefaults 0swaps</p></div></pre>
+    </div>
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/tinycon.min.js"></script>
+    <script src="/ansi_up.js"></script>
+    <script src="/app.js"></script>
+    <script type="text/javascript">
+        var socket = new io.connect('/2f8633c0688187b39b69fe944a6c61af', {
+            path: '/socket.io'
+        });
+
+        window.load = App.init({
+            socket: socket,
+            container: document.getElementsByClassName('log')[0],
+            filterInput: document.getElementsByClassName('query')[0],
+            topbar: document.getElementsByClassName('topbar')[0],
+            body: document.getElementsByTagName('body')[0]
+        });
+    </script>
+
+
+
+</body></html>

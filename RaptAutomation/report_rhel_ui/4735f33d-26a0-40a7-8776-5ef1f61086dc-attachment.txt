@@ -1,0 +1,23 @@
+RunStarted at :2020-04-01 12:57:54.604961
+Environment Created
+**********************
+This is Title name : Rapt.AI
+Login successful
+************ Mnist Manual *****************
+Selected Tensorflow
+Selected Inception
+Your selected Manual
+gpu percentage :  40 %
+core percentage :  90 %
+Gpu Usage :  ip-172-31-38-215.us-west-2.compute.internal Wed Apr 1 07:29:53 2020 440.59
+[0] Tesla K80 | 47'C, 38 % | 4770 / 11441 MB | python/27264(4757M)
+Mnist Manual - Elapsed Time: 0:27.29
+file creating and writing ..............john.txt
+{'level': 'SEVERE', 'message': 'http://34.222.246.209:3010/images/favicon.png - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1585771089701}
+You are logged out
+*******************
+Environment-1 Destroyed
+Run Completed at :2020-04-01 13:01:05.654453
+*******************
+Environment-2 Destroyed
+Run Completed at :2020-04-01 13:01:07.802511

@@ -1,0 +1,25 @@
+RunStarted at :2020-04-01 12:54:29.166268
+Environment Created
+**********************
+myurl  None
+This is Title name : Rapt.AI
+This is Title name : Rapt.AI
+Login successful
+************ Mnist Auto *****************
+Selected Tensorflow
+Selected Inception
+Your selected Auto
+Gpu Usage :  ip-172-31-38-215.us-west-2.compute.internal Wed Apr 1 07:26:22 2020 440.59
+[0] Tesla K80 | 47'C, 40 % | 1402 / 11441 MB | python/23032(1390M)
+Mnist Auto - Elapsed Time: 0:26.70
+file creating and writing ..............john.txt
+{'level': 'SEVERE', 'message': 'http://34.222.246.209:3010/images/favicon.png - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1585770879905}
+{'level': 'SEVERE', 'message': 'http://34.222.246.209:3010/images/favicon.png - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1585770885924}
+{'level': 'WARNING', 'message': 'http://34.222.246.209:30501/ 26621:203 "paper-toolbar" "is deprecated. Please use app-layout instead!"', 'source': 'console-api', 'timestamp': 1585770940450}
+You are logged out
+*******************
+Environment-1 Destroyed
+Run Completed at :2020-04-01 12:57:34.879891
+*******************
+Environment-2 Destroyed
+Run Completed at :2020-04-01 12:57:37.081908

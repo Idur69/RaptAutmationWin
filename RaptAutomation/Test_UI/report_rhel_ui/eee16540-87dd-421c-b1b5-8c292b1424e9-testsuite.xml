@@ -1,0 +1,221 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1585769763189" stop="1585769963541">
+  <name>K8s_SingleUser_SingleGpu.test_01_local_mnist_auto</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1585769763189" status="failed" stop="1585769963541">
+      <name>Kubernetes_Ui_Mnist_Auto.test_local_mnist_auto</name>
+      <failure>
+        <message>NoSuchElementException: Message: Could not locate element with visible text: mnist_gpu.py
+</message>
+        <stack-trace>self = &lt;K8s_SingleUser_SingleGpu.test_01_local_mnist_auto.Kubernetes_Ui_Mnist_Auto testMethod=test_local_mnist_auto&gt;
+
+    def test_local_mnist_auto(self):
+        logedout_txt = None
+        driver1 = self.driver1
+        myurl = Myurl(self.driver1)
+        myurl.access_url()
+        print("myurl ", myurl.acces_user())
+        #driver1.implicitly_wait(10)
+        sleep(5)
+        #-----------Rapt Title  ----------------------
+        rapt_title =  "Rapt.AI"
+        if rapt_title == driver1.title:
+            print("This is Title name :", driver1.title)
+        else:
+            assert print("Rapt title didn't match....!")
+    
+        print("This is Title name :", driver1.title)
+    
+        #ScreenShot Relative Path
+        #ss_path = '/K8s_UI/'
+        ss_path = '/Rhel_UI/'
+        #Creating object of screenshot utility
+        ss = SS(driver1)
+    
+        #------- Login Details ------------
+        user = LoginUsers()
+        Admin = user.user1_name
+        Pwd = user.user1_password
+        expadmin = user.user1_expadmin
+        exppass = user.user1_exppass
+        # ------ local path ------------
+        paths = Paths()
+        locpath = paths.Local_path
+    
+        admin_login = AdminLogin(driver1)
+        admin_login.set_login_uname(Admin)
+        admin_login.set_login_upass(Pwd)
+        sleep(3)
+        admin_login.submit_login(Admin, Pwd)
+        sleep(5)
+        #----------- Re login user  ------------------
+        logout_exp = "You are logged out .. please login.!"
+        re_login = self.driver1.find_elements_by_xpath("//*[@class='alert alert-success']")
+    
+        for Logedout in re_login:
+            assert isinstance(Logedout.text, object)
+            logedout_txt = Logedout.text
+            print("please logedout text :", str(logedout_txt))
+        if logout_exp == logedout_txt:
+            print("logged out matched here ^^^^^^^^^^^^^^^^^^^^^^^^^^")
+    
+            driver1 = self.driver1
+    
+            myurl = Myurl(self.driver1)
+            myurl.access_url()
+            # driver1.implicitly_wait(10)
+            sleep(5)
+            print("This is Title name inside if 2:", driver1.title)
+            # self.assertEqual("Rapt.AI", driver1.title)
+            sleep(5)
+            # ------- Login Details ------------
+            user = LoginUsers()
+            Admin = user.user1_name
+            Pwd = user.user1_password
+            #expadmin = user.user1_expadmin
+            #exppass = user.user1_exppass
+    
+            admin_login = AdminLogin(driver1)
+            admin_login.set_login_uname(Admin)
+            sleep(2)
+            admin_login.set_login_upass(Pwd)
+            sleep(3)
+            admin_login.submit_login(Admin, Pwd)
+            sleep(5)
+    
+        if Admin == expadmin and Pwd == exppass:
+            print("Login successful")
+        else:
+            assert print("Invalid credentials")
+    
+        print("************ Mnist Auto *****************")
+        # --------Frame work--------------
+        f = self.driver1.find_element_by_xpath("//img[@src='/images/tenserflow.png']")
+        f.click()
+        print("Selected Tensorflow")
+        sleep(2)
+        # --------if you have compound class name you should write like this-----------
+        inception = self.driver1.find_element_by_xpath("//*[@class='card-body text-center font-weight-normal btnNext']")
+        inception.click()
+        sleep(1)
+        print("Selected Inception")
+    
+        # -----------local folder---------------
+        local = self.driver1.find_element(By.ID, 'r100')
+        local.click()
+        sleep(1)
+        localpath = self.driver1.find_element(By.ID, 'local_dir_path')
+        localpath.send_keys(locpath)
+    
+        sleep(2)
+        # ----------GPU Auto --------
+        gpu = self.driver1.find_element(By.ID, 'r4')
+        gpu.click()
+        sleep(2)
+        auto = self.driver1.find_element_by_id("r101")
+        auto.click()
+        sleep(2)
+        print("Your selected Auto")
+        #------Screenshot-1-----------
+        ss.ScreenShot(ss_path + "test_01_mnist_auto_setupscreen.png")
+        # -------------------- setup btn -----------------
+        setupbtn = self.driver1.find_element(By.ID, 'setupbtn')
+        setupbtn.click()
+        sleep(25)
+        #sleep(60)
+    
+        SHORT_TIMEOUT = 10  # give enough time for the loading element to appear
+        LONG_TIMEOUT = 20  # give enough time for loading to finish
+        #LOADING_ELEMENT_XPATH = self.driver1.find_element(By.ID, 'loader')
+        LOADING_ELEMENT_XPATH = "//*[@id='loader']"
+    
+        '''try:
+                wait = Webdriver1Wait(driver1, 10)
+                wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="loader"]')))
+                #element = Webdriver1Wait(driver1, 10).until(
+                    #EC.presence_of_element_located((By.ID, "loader")))
+                myElem = Webdriver1Wait(driver1, LONG_TIMEOUT).until(EC.presence_of_element_located((By.ID, 'loader')))
+                print("Page is ready!",myElem)
+            except TimeoutException:
+                print("Loading took too much time!")'''
+    
+        #Webdriver1Wait(self.driver1, SHORT_TIMEOUT
+                      #).until(EC.presence_of_element_located((By.XPATH, LOADING_ELEMENT_XPATH)))
+    
+        #Webdriver1Wait(driver1,SHORT_TIMEOUT).until(EC.visibility_of_element_located((By.XPATH, LOADING_ELEMENT_XPATH)))
+        #Webdriver1Wait(driver1,LONG_TIMEOUT).until(EC.visibility_of_element_located((By.XPATH, LOADING_ELEMENT_XPATH)))
+    
+        # then wait for the element to disappear
+        #Webdriver1Wait(self.driver1, LONG_TIMEOUT
+                      #).until_not(EC.presence_of_element_located((By.XPATH, LOADING_ELEMENT_XPATH)))
+    
+        # -------Datsets &amp; Training  ----------------
+        traindir = self.driver1.find_element(By.ID, 'traindirectory')
+        trdirectory = Select(traindir)
+        trdirectory.select_by_visible_text("Mnist_classification")
+        sleep(2)
+    
+        trinfile = self.driver1.find_element(By.ID, 'file_name')
+        trfile = Select(trinfile)
+&gt;       trfile.select_by_visible_text("mnist_gpu.py")
+
+test_01_local_mnist_auto.py:173: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.select.Select object at 0x00000000041CF390&gt;
+text = 'mnist_gpu.py'
+
+    def select_by_visible_text(self, text):
+        """Select all options that display text matching the argument. That is, when given "Bar" this
+               would select an option like:
+    
+                &lt;option value="foo"&gt;Bar&lt;/option&gt;
+    
+               :Args:
+                - text - The visible text to match against
+    
+                throws NoSuchElementException If there is no option with specisied text in SELECT
+               """
+        xpath = ".//option[normalize-space(.) = %s]" % self._escapeString(text)
+        opts = self._el.find_elements(By.XPATH, xpath)
+        matched = False
+        for opt in opts:
+            self._setSelected(opt)
+            if not self.is_multiple:
+                return
+            matched = True
+    
+        if len(opts) == 0 and " " in text:
+            subStringWithoutSpace = self._get_longest_token(text)
+            if subStringWithoutSpace == "":
+                candidates = self.options
+            else:
+                xpath = ".//option[contains(.,%s)]" % self._escapeString(subStringWithoutSpace)
+                candidates = self._el.find_elements(By.XPATH, xpath)
+            for candidate in candidates:
+                if text == candidate.text:
+                    self._setSelected(candidate)
+                    if not self.is_multiple:
+                        return
+                    matched = True
+    
+        if not matched:
+&gt;           raise NoSuchElementException("Could not locate element with visible text: %s" % text)
+E           selenium.common.exceptions.NoSuchElementException: Message: Could not locate element with visible text: mnist_gpu.py
+
+..\..\..\..\appdata\local\programs\python\python36\lib\site-packages\selenium\webdriver\support\select.py:140: NoSuchElementException</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="5441cda3-1300-4376-b888-ad0fe76c7f57-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3772-MainThread"/>
+        <label name="host" value="SHAIKSHAVALI-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,664 @@
+1566891262540	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tK2Pkv4V0CB6"
+1566891265016	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566891265016	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566891265017	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566891265017	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566891270692	Marionette	INFO	Listening on port 44683
+1566891270766	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:6718): dconf-WARNING **: 13:04:31.257: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1566891271289	Marionette	INFO	Stopped listening on port 44683
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 349: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 349: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: PushService: 
+console.log: "RemoteSettingsWorker error: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code."
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+JavaScript error: resource://services-common/kinto-offline-client.js, line 579: Error: IndexedDB getLastModified() The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1566891342413	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BA0Wt9V2Begm"
+1566891343442	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566891343442	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566891343443	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566891343443	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566891346600	Marionette	INFO	Listening on port 38463
+1566891346627	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://54.188.252.149:3020/users/login, line 115: SyntaxError: expected expression, got '}'
+
+(/usr/lib/firefox/firefox:6995): dconf-WARNING **: 13:05:48.688: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: http://54.188.252.149:3020/accessUI/5d28134b127a4118173e7435, line 605: SyntaxError: expected expression, got '}'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566864005222%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/users/login, line 116: SyntaxError: expected expression, got '}'
+1566891466559	Marionette	INFO	Stopped listening on port 38463
+[Parent 6919, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1566891654517	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.iKiAcO1clISY"
+1566891657392	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566891657392	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566891657393	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566891657393	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566891663347	Marionette	INFO	Listening on port 40537
+1566891663364	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://54.188.252.149:3020/users/login, line 115: SyntaxError: expected expression, got '}'
+
+(/usr/lib/firefox/firefox:7487): dconf-WARNING **: 13:11:07.707: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: http://54.188.252.149:3020/accessUI/5d28134b127a4118173e7435, line 605: SyntaxError: expected expression, got '}'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566864005222%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/users/login, line 116: SyntaxError: expected expression, got '}'
+1566891785170	Marionette	INFO	Stopped listening on port 40537
+1566892306701	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TOfrj6Gaq1IW"
+1566892307563	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566892307563	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566892307563	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566892307564	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566892310644	Marionette	INFO	Listening on port 46141
+1566892310712	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://54.188.252.149:3020/users/login, line 115: SyntaxError: expected expression, got '}'
+
+(/usr/lib/firefox/firefox:8745): dconf-WARNING **: 13:21:52.348: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: http://54.188.252.149:3020/accessUI/5d28134b127a4118173e7435, line 605: SyntaxError: expected expression, got '}'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566864005222%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/users/login, line 116: SyntaxError: expected expression, got '}'
+1566892429728	Marionette	INFO	Stopped listening on port 46141
+[Parent 8668, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 8668, Gecko_IOThread] WARNING: pipe error (100): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1566892539442	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KqDVYgLDfxuT"
+1566892540263	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566892540264	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566892540264	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566892540264	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566892543485	Marionette	INFO	Listening on port 37789
+1566892543554	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://54.188.252.149:3020/users/login, line 115: SyntaxError: expected expression, got '}'
+
+(/usr/lib/firefox/firefox:9165): dconf-WARNING **: 13:25:45.180: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: http://54.188.252.149:3020/accessUI/5d28134b127a4118173e7435, line 605: SyntaxError: expected expression, got '}'
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566864005222%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/users/login, line 116: SyntaxError: expected expression, got '}'
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1566892661934	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.I4HxcaR8JBMa"
+1566892663008	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566892663009	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566892663009	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566892663009	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566892666267	Marionette	INFO	Listening on port 35305
+1566892666349	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://54.188.252.149:3020/users/login, line 115: SyntaxError: expected expression, got '}'
+
+(/usr/lib/firefox/firefox:9436): dconf-WARNING **: 13:27:47.975: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: http://54.188.252.149:3020/accessUI/5d28134b127a4118173e7435, line 605: SyntaxError: expected expression, got '}'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566864005222%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/users/login, line 116: SyntaxError: expected expression, got '}'
+1566892785250	Marionette	INFO	Stopped listening on port 35305
+[Parent 9360, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 9360, Gecko_IOThread] WARNING: pipe error (96): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1566892793961	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.l2eFbc2LTd1I"
+1566892794814	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566892794815	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566892794815	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566892794815	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566892797853	Marionette	INFO	Listening on port 36539
+1566892797873	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://54.188.252.149:3020/users/login, line 115: SyntaxError: expected expression, got '}'
+
+(/usr/lib/firefox/firefox:9706): dconf-WARNING **: 13:29:59.530: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: http://54.188.252.149:3020/accessUI/5d28134b127a4118173e7435, line 605: SyntaxError: expected expression, got '}'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566864005222%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/users/login, line 116: SyntaxError: expected expression, got '}'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1566892866792	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZdUGt8r6ej4F"
+1566892867562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566892867562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566892867562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566892867562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566892870589	Marionette	INFO	Listening on port 45447
+1566892870612	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://54.188.252.149:3020/users/login, line 115: SyntaxError: expected expression, got '}'
+
+(/usr/lib/firefox/firefox:9959): dconf-WARNING **: 13:31:12.196: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: http://54.188.252.149:3020/accessUI/5d28134b127a4118173e7435, line 605: SyntaxError: expected expression, got '}'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566864005222%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/users/login, line 116: SyntaxError: expected expression, got '}'
+1566892999374	Marionette	INFO	Stopped listening on port 45447
+[Parent 9883, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 9883, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1566893000225	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.US0kspjWMY01"
+1566893001449	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566893001450	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566893001450	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566893001450	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566893004451	Marionette	INFO	Listening on port 39947
+1566893004538	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://54.188.252.149:3020/users/login, line 115: SyntaxError: expected expression, got '}'
+
+(/usr/lib/firefox/firefox:10234): dconf-WARNING **: 13:33:27.065: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: http://54.188.252.149:3020/accessUI/5d28134b127a4118173e7435, line 605: SyntaxError: expected expression, got '}'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566864005222%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/users/login, line 116: SyntaxError: expected expression, got '}'
+1566893125414	Marionette	INFO	Stopped listening on port 39947
+[Parent 10158, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 10158, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1566893780555	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kfSlEfYC7jxt"
+1566893781378	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566893781378	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566893781378	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566893781378	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566893786049	Marionette	INFO	Listening on port 41379
+1566893786095	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://54.188.252.149:3020/users/login, line 115: SyntaxError: expected expression, got '}'
+
+(/usr/lib/firefox/firefox:10765): dconf-WARNING **: 13:46:27.702: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: http://54.188.252.149:3020/accessUI/5d28134b127a4118173e7435, line 605: SyntaxError: expected expression, got '}'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566864005222%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/users/login, line 116: SyntaxError: expected expression, got '}'
+1566893976459	Marionette	INFO	Stopped listening on port 41379
+1566898096362	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.eMrdP0dG0DyV"
+1566898097895	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566898097895	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566898097895	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566898097895	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566898104986	Marionette	INFO	Listening on port 34793
+1566898105173	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://54.188.252.149:3020/users/login, line 115: SyntaxError: expected expression, got '}'
+
+(/usr/lib/firefox/firefox:11665): dconf-WARNING **: 14:58:28.978: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: http://54.188.252.149:3020/accessUI/5d28134b127a4118173e7435, line 605: SyntaxError: expected expression, got '}'
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566864005222%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/users/login, line 116: SyntaxError: expected expression, got '}'
+1566898298250	Marionette	INFO	Stopped listening on port 34793
+1566905353361	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.o2GhQHbV00XM"
+1566905361611	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566905361611	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566905361612	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566905361613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566905380234	Marionette	INFO	Listening on port 34345
+1566905381332	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://54.188.252.149:3020/users/login, line 115: SyntaxError: expected expression, got '}'
+
+(/usr/lib/firefox/firefox:14408): dconf-WARNING **: 16:59:49.377: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221566864005222%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://54.188.252.149:3020/accessUI/5d28134b127a4118173e7435, line 605: SyntaxError: expected expression, got '}'
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/dist/Chart.bundle.js, line 10435: TypeError: element._view is undefined
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/js/main.js, line 164: TypeError: iframe is null
+JavaScript error: http://54.188.252.149:3020/users/login, line 116: SyntaxError: expected expression, got '}'
+1566905585043	Marionette	INFO	Stopped listening on port 34345

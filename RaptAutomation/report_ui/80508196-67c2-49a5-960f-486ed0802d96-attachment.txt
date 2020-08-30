@@ -1,0 +1,11 @@
+RunStarted at :2020-04-04 13:34:14.261197
+Environment Created
+**********************
+myurl  None
+Rapt title didn't match....!
+*******************
+Environment-1 Destroyed
+Run Completed at :2020-04-04 13:35:12.198588
+*******************
+Environment-2 Destroyed
+Run Completed at :2020-04-04 13:35:14.397545

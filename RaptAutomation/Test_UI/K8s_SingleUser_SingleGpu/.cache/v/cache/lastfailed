@@ -1,0 +1,18 @@
+{
+  "test_01_local_mnist_auto.py::Kubernetes_Ui_Mnist_Auto::test_local_mnist_auto": true,
+  "test_Rapt_01_Local_Mnist_Auto.py::EnvironmentSetup": true,
+  "test_Rapt_01_Local_Mnist_Auto.py::Rapt_Single_User_and_Gpu_Local_Mnist_Auto": true,
+  "test_Rapt_02_Nfs_Mnist_Manual.py::Rapt_Single_User_and_Gpu_Nfs_Mnist_Manual::test_nfs_mnist_manual": true,
+  "test_Rapt_04_Nfs_Pgan_Manual.py::Rapt_Single_User_and_Gpu_Nfs_Pgan_Manual::test_nfs_pgan_manual": true,
+  "test_Rapt_07_Local_Mnist_Auto.py::Rapt_Single_User_and_Gpu_Local_Mnist_Auto::test_local_mnist_auto": true,
+  "test_Rapt_07_Nfs_Mnist_Auto.py::Rapt_Single_User_and_Gpu_Nfs_Mnist_Auto::test_nfs_mnist_auto": true,
+  "test_Rapt_Inferencing_dog_classification_Mnist_Manual.py::Rapt_Single_User_and_Gpu_Local_Mnist_Manual::test_inferencing_dog_classification_Mnist_Manual": true,
+  "test_Rapt_Inferencing_dog_classification_Mnist_Manual.py::Rapt_Single_User_and_Gpu_Local_Mnist_Manual::test_inferencing_dog_classification_mnist_manual": true,
+  "test_Rapt_Inferencing_image_classification_auto.py::Rapt_Single_User_and_Gpu_Local_Auto::test_inferencing_image_classification_auto": true,
+  "test_Rapt_Mnist_Auto.py": true,
+  "test_Rapt_Mnist_Auto.py::Rapt_Single_User_and_Gpu_Mnist_Auto::test_mnist_auto": true,
+  "test_Rapt_Mnist_Manual.py": true,
+  "test_Rapt_Pgan_Auto.py": true,
+  "test_Rapt_Pgan_Manual.py": true,
+  "test_Rapt_S3_Mnist_Auto.py::Rapt_Single_User_and_Gpu_S3_Mnist_Auto::test_s3_mnist_auto": true
+}

@@ -1,0 +1,6 @@
+{
+  "rapt_kubernetes_ui.py::Kubernetes_Ui_Mnist_Auto": true,
+  "rapt_kubernetes_ui.py::Kubernetes_Ui_Mnist_Manual": true,
+  "rapt_kubernetes_ui.py::TestLoader": true,
+  "rapt_kubernetes_ui.py::TestSuite": true
+}

@@ -1,0 +1,5 @@
+{
+  "test_Parallel_04_singleGpu_mnist_auto.py::Parallel_04_SingleGpu_Mnist_auto::test_mnist_auto": true,
+  "test_Parallel_05_singleGpu_mnist_manual1.py": true,
+  "test_Parallel_05_singleGpu_mnist_manual2.py": true
+}

@@ -1,0 +1,44 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1585987437513" stop="1585987516982">
+  <name>rapt_kubernetes_ui</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1585987437513" status="failed" stop="1585987516982">
+      <name>Kubernetes_Ui_Mnist_Auto.test_local_mnist_auto</name>
+      <failure>
+        <message>AssertionError: assert None
+ +  where None = print("Rapt title didn't match....!")</message>
+        <stack-trace>self = &lt;Test_UI.K8s_SingleUser_SingleGpu.test_01_local_mnist_auto.Kubernetes_Ui_Mnist_Auto testMethod=test_local_mnist_auto&gt;
+
+    def test_local_mnist_auto(self):
+        logedout_txt = None
+        driver1 = self.driver1
+        myurl = Myurl(self.driver1)
+        myurl.access_url()
+        print("myurl ", myurl.acces_user())
+        #driver1.implicitly_wait(10)
+        sleep(5)
+        #-----------Rapt Title  ----------------------
+        rapt_title =  "Rapt.AI"
+        if rapt_title == driver1.title:
+            print("This is Title name :", driver1.title)
+        else:
+&gt;           assert print("Rapt title didn't match....!")
+E           AssertionError: assert None
+E            +  where None = print("Rapt title didn't match....!")
+
+K8s_SingleUser_SingleGpu\test_01_local_mnist_auto.py:38: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="80508196-67c2-49a5-960f-486ed0802d96-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7392-MainThread"/>
+        <label name="host" value="DESKTOP-SIB"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
